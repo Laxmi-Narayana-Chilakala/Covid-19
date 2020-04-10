@@ -1,9 +1,7 @@
 numpy
 pandas
-plotly
+plotly==3.9.0
 ipywidgets
-dash
-dash_core_components
-dash_html_components
-
-
+dash==1.10.0
+dash_core_components==1.9.0
+dash_html_components==1.0.3
