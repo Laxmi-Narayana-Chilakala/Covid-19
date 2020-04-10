@@ -1,6 +1,7 @@
 numpy
 pandas
 plotly==3.9.0
+gunicorn==19.9.0
 ipywidgets
 dash==1.10.0
 dash_core_components==1.9.0
