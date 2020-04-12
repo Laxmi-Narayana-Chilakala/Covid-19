@@ -264,7 +264,7 @@ app.layout=html.Div(style={'backgroundColor': dash_colors['background']},
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True,port=5000)
+    app.run_server(debug=True)
 
 
 # In[16]:
