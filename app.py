@@ -124,7 +124,7 @@ app.layout = html.Div(style={'backgroundColor': dash_colors['background']},
                       children=[
                           html.H1(children="Covid-19 Indian DashBoard",
                                   style={
-                                      'font-family': 'cursive',
+                                      'font-family': 'Times New Roman',
                                       'textAlign': 'center',
                                       'color': 'red'
                                   }),
@@ -132,7 +132,7 @@ app.layout = html.Div(style={'backgroundColor': dash_colors['background']},
                           html.H5('''Coronavirus disease 2019(COVID-19) is an infectious spreading disease,which is casued by severe acute respiratory syndrome coronavirus 2(SARS-Cov-2).This disease was first found in 2019 in Wuhan distirct of China,
     and is spreading tremendously across the globe,resulted in pandemic declaration by World Health Organization.''',
                                  style={
-                                    'font-family': 'cursive',
+                                    'font-family': 'Times New Roman',
                                     'textAlign':'center',
                                      'color': 'white'
                                  }),
@@ -146,7 +146,7 @@ app.layout = html.Div(style={'backgroundColor': dash_colors['background']},
                                   }),
                           html.H5("Recovered cases: {}".format(recovered_cases),
                                   style={
-                                      'font-family': 'cursive',
+                                      'font-family': 'Times New Roman',
                                       'textAlign': 'center',
                                       'color': '#F3AE0F',
                                       'height': 22
@@ -154,14 +154,14 @@ app.layout = html.Div(style={'backgroundColor': dash_colors['background']},
                                   }),
                           html.H5("Deaths: {}".format(deaths),
                                   style={ 
-                                      'font-family': 'cursive',
+                                      'font-family': 'Times New Roman',
                                       'textAlign': 'center',
                                       'color': '#F3AE0F',
                                       'height': 22
                                   }),
                           html.H5("Active cases: {}".format(Active),
                                   style={
-                                      'font-family': 'cursive',
+                                      'font-family': 'Times New Roman',
                                       'textAlign': 'center',
                                       'color': '#F3AE0F',
                                       'height': 22
@@ -251,7 +251,7 @@ app.layout = html.Div(style={'backgroundColor': dash_colors['background']},
                               }, style_cell={
                                   # all three widths are needed
                                   'minWidth': '180px', 'width': '150px', 'maxWidth': '180px', 'textAlign': 'center','font_size': '21px',
-                                  'color': "black", "paper_bgcolor": dash_colors['background'],
+                                  'color': "black", "paper_bgcolor": dash_colors['background'],'font-family': 'Times New Roman',
                                   "plot_bgcolor": dash_colors['background']
                               }, style_data={
                                   'whiteSpace': 'normal',
