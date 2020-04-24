@@ -136,15 +136,15 @@ app.layout = html.Div(style={'backgroundColor': dash_colors['background']},
                                     'textAlign':'center',
                                      'color': 'white'
                                  }),
-                          html.H5("Confirmed cases: {}".format(confirmed_cases),
+                          html.H4("Confirmed cases: {}".format(confirmed_cases),
                                   style={
                                       'textAlign': 'center',
-                                      'font-family': 'cursive',
+                                      'font-family': 'Times New Roman',
                                       'color': '#F3AE0F',
                                       'height': 22
 
                                   }),
-                          html.H5("Recovered cases: {}".format(recovered_cases),
+                          html.H4("Recovered cases: {}".format(recovered_cases),
                                   style={
                                       'font-family': 'Times New Roman',
                                       'textAlign': 'center',
@@ -152,14 +152,14 @@ app.layout = html.Div(style={'backgroundColor': dash_colors['background']},
                                       'height': 22
 
                                   }),
-                          html.H5("Deaths: {}".format(deaths),
+                          html.H4("Deaths: {}".format(deaths),
                                   style={ 
                                       'font-family': 'Times New Roman',
                                       'textAlign': 'center',
                                       'color': '#F3AE0F',
                                       'height': 22
                                   }),
-                          html.H5("Active cases: {}".format(Active),
+                          html.H4("Active cases: {}".format(Active),
                                   style={
                                       'font-family': 'Times New Roman',
                                       'textAlign': 'center',
