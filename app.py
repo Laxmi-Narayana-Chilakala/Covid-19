@@ -251,7 +251,7 @@ app.layout = html.Div(style={'backgroundColor': dash_colors['background']},
                               }, style_cell={
                                   # all three widths are needed
                                   'minWidth': '180px', 'width': '150px', 'maxWidth': '180px', 'textAlign': 'center','font_size': '21px',
-                                  'color': "black", "paper_bgcolor": dash_colors['background'],'font-family': 'cursive',
+                                  'color': "black", "paper_bgcolor": dash_colors['background'],
                                   "plot_bgcolor": dash_colors['background']
                               }, style_data={
                                   'whiteSpace': 'normal',
