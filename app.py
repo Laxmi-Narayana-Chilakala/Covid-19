@@ -221,12 +221,13 @@ app.layout = html.Div(style={'backgroundColor': dash_colors['background']},
                                   'data': [
                                       {'x': sorted_df['State'], 'y': sorted_df['Total Confirmed'], 'type': 'bar',
                                        'name': 'confirmed'},
+                                      {'x': sorted_df['State'], 'y': sorted_df['Active'], 'type': 'bar',
+                                       'name': 'active'},
                                       {'x': sorted_df['State'], 'y': sorted_df['Recovered'], 'type': 'bar',
                                        'name': 'recovered'},
                                       {'x': sorted_df['State'], 'y': sorted_df['Deaths'], 'type': 'bar',
-                                       'name': 'deaths'},
-                                      {'x': sorted_df['State'], 'y': sorted_df['Active'], 'type': 'bar',
-                                       'name': 'active'}
+                                       'name': 'deaths'}
+                                      
                                   ],
                                   'layout': {
                                       'title': "Highly affected states",
