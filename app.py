@@ -111,7 +111,7 @@ final_df = pd.DataFrame(d[1].values.tolist(), columns=['Total Confirmed','Recove
                         index=d[0]).reset_index()
 final_df.rename(columns={0: 'State'}, inplace=True)
 final_df['Active'] = final_df["Total Confirmed"] - final_df['Recovered'] - final_df['Deaths']
-final_df["Last_24Hrs Confirmed"]=confirmed_df.T[40][2:-1].values
+final_df["Last_24Hrs Confirmed"]=confirmed_df.tail(1).T[2:-1].reset_index().iloc[:,1:]
 final_df=final_df[['State',"Last_24Hrs Confirmed","Total Confirmed",'Recovered','Deaths','Active']]
 sorted_df = final_df.sort_values(["Total Confirmed"], ascending=False)
 
