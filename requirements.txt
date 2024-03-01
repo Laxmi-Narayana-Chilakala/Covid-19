@@ -4,4 +4,4 @@ plotly==3.9.0
 gunicorn==19.9.0
 dash==1.10.0
 dash_core_components==1.9.0
-dash_html_components==1.0.3
+dash_html_components==2.0.0
